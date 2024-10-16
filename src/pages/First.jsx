@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, {  useState } from "react";
+import { Link } from "react-router-dom";
 import Lines from "./Lines";
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { IoToggle } from "react-icons/io5";
 
 const First = () => {
 
@@ -14,22 +13,7 @@ const First = () => {
   };
 
 
-  // Scroll to component when the route matches
- const ScrollToComponent = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    const elementId = location.pathname.slice(1); // Get the route path (e.g., 'section1')
-    const element = document.getElementById(elementId); // Find the element by id
-
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' }); // Scroll to the element
-    }
-  }, [location]);
-
-  return null;
-};
-
+  
 
 
   return (
@@ -67,7 +51,7 @@ const First = () => {
           {/* Floating Panels */}
           <div className="absolute hidden md:hidden  inset-0 lg:flex flex-col items-center justify-center space-y-8">
             {/* First Floating Panel */}
-            <div className="absolute left-[120px] md:left-[227px] -top-[250px] lg:top-[120px] w-[180px] md:w-[240px] h-[322.53px] md:h-[322.53px] bg-[#303030] rounded-lg shadow-lg backdrop-blur-lg p-2 border-gray-600 border">
+            <div className="absolute left-[120px] md:left-[227px] -top-[250px] lg:top-[120px] w-[180px] md:w-[240px] h-[322.53px] md:h-[322.53px] bg-[] rounded-lg shadow-lg  p-2 border-gray-600 border backdrop-blur-2xl">
               <div className="flex gap-2 mb-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
@@ -191,7 +175,7 @@ const First = () => {
             
 
             {/* Second Floating Panel */}
-            <div className="absolute left-[250px] md:left-[380px] -top-[140px] md:top-[240px] w-[180px] md:w-[254px] h-[240px] md:h-[285px] bg-[#303030] blur-[14.86]  rounded-lg shadow-lg backdrop-blur-lg p-4 md:p-4 border-gray-600 border">
+            <div className="absolute left-[250px] md:left-[380px] -top-[140px] md:top-[240px] w-[180px] md:w-[254px] h-[240px] md:h-[285px] bg-[] bg-blur-[10.86]  rounded-lg shadow-lg  p-4 md:p-4 border-gray-600 border backdrop-blur-2xl">
               {/* Summary Section */}
               <div className="flex gap-2 mb-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
@@ -242,7 +226,7 @@ const First = () => {
             </div>
 
             {/* Third Floating Panel */}
-            <div className="absolute left-[40px] md:left-[80px] -top-[60px] md:top-[318px] w-[160px] md:w-[218.34px] h-[120px] md:h-[155.96px] bg-[#303030] blur-[20] border-gray-600 border rounded-lg shadow-lg backdrop-blur-3xl items-center justify-center">
+            <div className="absolute left-[40px] md:left-[80px] -top-[60px] md:top-[318px] w-[160px] md:w-[218.34px] h-[120px] md:h-[155.96px] bg-[] blur-[20] border-gray-600 border rounded-lg shadow-lg  backdrop-blur-2xl items-center justify-center">
             <div className="flex gap-2 m-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>

@@ -13,8 +13,7 @@ const Navbar = () => {
         </Link>
         </div>
         <div className="md:flex hidden md:gap-12 gap-20 text-base text-white ">
-          <Link to="/services">Services</Link>
-          <Link to="/products">Products</Link>
+        <a href="/products" target="_blank" rel="noopener noreferrer">Products</a>
           <Link to="/case-studies">Case Studies</Link>
           <Link to="/blogs">Blog</Link>
         </div>

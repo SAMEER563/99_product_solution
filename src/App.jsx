@@ -11,6 +11,7 @@ import MobileDevelopment from './pages/MobileDevelopment'
 import Devops from './pages/Devops'
 import ItOutsourcing from './pages/ItOutsourcing'
 import ItConsulting from './pages/ItConsulting'
+import ProductPage from './pages/ProductPage'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/' element={<Home />} />
         <Route path='/about' element={<AboutUs />} />
         <Route path='/contact' element={<ContactForm />} />
+        <Route path='/products' element={<ProductPage />} />
         <Route path='/services' element={<ServicesList />} />
         <Route path='/web' element={<WebsiteDevelopment />} />
         <Route path='/mobile' element={<MobileDevelopment />} />
