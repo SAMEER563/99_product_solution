@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 import ServicesList from './pages/Services'
 import AboutUs from './pages/AboutUs'
 import ContactForm from './pages/Contact'
@@ -12,11 +12,13 @@ import Devops from './pages/Devops'
 import ItOutsourcing from './pages/ItOutsourcing'
 import ItConsulting from './pages/ItConsulting'
 
+
 const App = () => {
   return (
     <div >
+      
       <Routes>
-        <Route path='/' element={<Home />} />
+      <Route path='/' element={<Home />} />
         <Route path='/about' element={<AboutUs />} />
         <Route path='/contact' element={<ContactForm />} />
         <Route path='/services' element={<ServicesList />} />
@@ -25,8 +27,8 @@ const App = () => {
         <Route path='/devops' element={<Devops />} />
         <Route path='/outsourcing' element={<ItOutsourcing />} />
         <Route path='/consulting' element={<ItConsulting />} />
+        </Routes>       
 
-      </Routes>
       
     </div>
   )

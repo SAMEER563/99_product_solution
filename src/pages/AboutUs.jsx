@@ -37,7 +37,7 @@ const AboutUs = () => {
         {/* Background circular patterns */}
         <div className="relative flex justify-center items-end w-full h-full ">
           {/* Circular pattern */}
-          <div className="absolute left-[550px] bottom-[150px] lg:left-[520px] md:left-[420px] md:bottom-[300px] lg:bottom-[100px] transform rotate-180 ">
+          <div className="absolute left-[550px] bottom-[150px] lg:left-[520px] md:left-[420px] md:bottom-[300px] lg:bottom-[180px] transform rotate-180 ">
             <div className="w-[300px] h-[300px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-11 left-11"></div>
             <div className="w-[320px] h-[320px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-10 left-10"></div>
             <div className="w-[340px] h-[340px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-9 left-9"></div>

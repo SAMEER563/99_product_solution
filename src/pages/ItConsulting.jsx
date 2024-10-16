@@ -6,7 +6,7 @@ const ItConsulting = () => {
     <div className="flex justify-center items-center min-h-screen bg-black">
       <div className="relative w-[1084px] bg-[#E4E4E7] rounded-3xl  shadow-lg p-10">
         {/* Close button */}
-        <Link to="/services" className="absolute top-4 right-4 text-[#000000]">
+        <Link to="/" className="absolute top-4 right-4 text-[#000000]">
           <button className=" m-4 md:-8 font-black border border-black w-[64px] h-[62px] rounded-xl">
             <span className="text-xl text-[#1C1B1F]">✕</span>
           </button>
