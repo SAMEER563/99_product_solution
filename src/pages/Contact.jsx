@@ -11,8 +11,8 @@ const ContactForm = () => {
           </h1>
           <p className="text-4xl md:text-5xl  font-bold mt-2">Get in touch!</p>
           <p className="text-gray-400 mt-2 text-sm md:text-base text-center">
-            Our team is happy to answer any queries you may have. Fill out the
-            form and <br /> we’ll be in touch as soon as possible.
+            Our team is happy to answer any queries you may <br className="block lg:hidden"/> have. Fill out the
+            form and <br className="hidden lg:block"/> we’ll be in touch as soon as possible.
           </p>
         </div>
         <div className="max-w-[90vw] md:max-w-[1070px] h-auto rounded-[40px] border border-[#3D3F43] m-4 flex flex-col md:flex-row">
