@@ -1,0 +1,19 @@
+/* Scrollbar styling only for the services list */
+.services-list-container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .services-list-container::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Background color of the track */
+  }
+  
+  .services-list-container::-webkit-scrollbar-thumb {
+    background-color: #7f75f0; /* Scrollbar color */
+    border-radius: 10px; /* Round scrollbar */
+    border: 2px solid transparent; /* Extra space around the thumb */
+  }
+  
+  .services-list-container::-webkit-scrollbar-thumb:hover {
+    background-color: #a47de8; /* Hover effect */
+  }
+  

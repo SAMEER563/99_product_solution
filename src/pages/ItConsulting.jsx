@@ -7,13 +7,13 @@ const ItConsulting = () => {
       <div className="relative w-[1084px] bg-[#E4E4E7] rounded-3xl  shadow-lg p-10">
         {/* Close button */}
         <Link to="/" className="absolute top-4 right-4 text-[#000000]">
-          <button className=" m-4 md:-8 font-black border border-black w-[64px] h-[62px] rounded-xl">
+          <button className="  font-black border border-black w-[64px] h-[62px] rounded-xl">
             <span className="text-xl text-[#1C1B1F]">✕</span>
           </button>
         </Link>
 
         {/* Title */}
-        <h1 className="text-5xl font-semibold text-[#000000] m-2 ">
+        <h1 className="text-5xl font-semibold text-[#000000] m-3 ">
           IT Consulting & Support
         </h1>
 

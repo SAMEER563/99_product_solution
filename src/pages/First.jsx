@@ -77,7 +77,7 @@ const First = () => {
             onChange={toggleSwitch}
           />
           <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-purple-700 
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
             peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
             before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
           ></div>
@@ -98,7 +98,7 @@ const First = () => {
             onChange={toggleSwitch}
           />
           <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-purple-700 
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
             peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
             before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
           ></div>
@@ -119,7 +119,7 @@ const First = () => {
             onChange={toggleSwitch}
           />
           <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-purple-700 
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
             peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
             before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
           ></div>
@@ -140,7 +140,7 @@ const First = () => {
             onChange={toggleSwitch}
           />
           <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-purple-700 
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
             peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
             before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
           ></div>
@@ -161,7 +161,7 @@ const First = () => {
             onChange={toggleSwitch}
           />
           <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-purple-700 
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
             peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
             before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
           ></div>

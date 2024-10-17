@@ -13,10 +13,10 @@ const MobileDevelopment = () => {
         </Link>
 
         {/* Title */}
-        <h1 className="text-5xl font-semibold text-[#000000] m-2 ">
+        <h1 className="text-5xl font-semibold text-[#000000] m-6 ">
           Mobile App Development{" "}
         </h1>
-        <h1 className="mt-4 ml-2 text-5xl"> (iOS, Android, Hybrid)</h1>
+        <h1 className=" ml-6 text-5xl"> (iOS, Android, Hybrid)</h1>
 
         {/* Description */}
         <p className="text-[#000000] mb-6 text-lg mt-4 ml-2">

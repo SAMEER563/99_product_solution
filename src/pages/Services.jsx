@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+// Import the CSS file for scrollbar
+import "./Services.css";
 
 // Define individual service components
 const Service = ({ number, title, description, route, onHover }) => (
@@ -8,16 +10,16 @@ const Service = ({ number, title, description, route, onHover }) => (
   >
     <div className="text-left flex relative">
       <div>
-        <div className="flex mb-4 flex-col">
+        <div className="flex mb-4 flex-col ml-4">
           <span className="text-[#7F75F0] text-xl md:text-3xl font-semibold mb-2">
             {number}
           </span>
           <h2 className="text-2xl md:text-3xl">{title}</h2>
         </div>
-        <p className="text-white text-xl mb-6">{description}</p>
+        <p className="text-white text-xl mb-6 ml-4">{description}</p>
         <a
           href={route}
-          className="text-[#7F75F0] font-semibold hover:underline flex items-center"
+          className="text-[#7F75F0] font-semibold hover:underline flex items-center ml-4"
         >
           Learn more <span className="ml-2">→</span>
         </a>
@@ -35,7 +37,19 @@ const ServicesList = () => {
   };
 
   return (
-    <div className="bg-black text-white min-h-screen p-6 md:p-16 overflow-none">
+    <div className="bg-black text-white min-h-screen p-6 md:p-16 relative">
+      {/* Vertical Indicator */}
+      <div className="absolute left-4 top-[230px] transform -translate-y-0.5 flex flex-col lg:space-y-48 space-y-48 md:space-y-56">
+        {[...Array(6)].map((_, i) => (
+          <div
+            key={i}
+            className={`w-1 h-12 rounded-full ${
+              activeService === i ? "bg-[#7F75F0]" : "bg-[#4E4E4E]"
+            }`}
+          ></div>
+        ))}
+      </div>
+
       {/* Main Header */}
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl">What we offer</h1>
@@ -93,5 +107,6 @@ const ServicesList = () => {
     </div>
   );
 };
+
 
 export default ServicesList;
