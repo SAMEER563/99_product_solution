@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="md:flex hidden md:gap-12 gap-20 text-base text-white ">
         <a href="/products" target="_blank" rel="noopener noreferrer">Products</a>
-          <Link to="/case-studies">Case Studies</Link>
+          <Link to="/case-studies ">Case Studies</Link>
           <Link to="/blogs">Blog</Link>
         </div>
         <div className="md:hidden flex">
@@ -46,7 +46,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden flex flex-col gap-4 items-center bg-black py-4 text-white">
-          <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
+          
           <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
           <Link to="/case-studies" onClick={() => setIsOpen(false)}>Case Studies</Link>
           <Link to="/blogs" onClick={() => setIsOpen(false)}>Blogs</Link>
