@@ -20,7 +20,7 @@ const WebsiteDevelopment = () => {
 
         {/* Description */}
         <p className="text-[#000000] mb-6 text-lg mt-4 ml-2">
-          At 99products Solutions, we specialize in creating tailored,
+          At 99product Solutions, we specialize in creating tailored,
           high-performance websites <br /> that align with your business goals.
         </p>
 
