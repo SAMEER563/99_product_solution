@@ -17,7 +17,7 @@ const First = () => {
 
 
   return (
-    <div className="flex flex-col lg:flex-row  justify-between min-h-screen bg-black px-4 md:px-10">
+    <div className="flex flex-col lg:flex-row  justify-between min-h-screen bg-black px-4 md:px-24 md:py-12 md:">
       {/* Left Section */}
       <div className=" lg:w-1/2 lg:mt-0">
         <h3 className="text-white text-3xl mb-5  mt-32 md:text-4xl px-2">
@@ -42,12 +42,13 @@ const First = () => {
       <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative mr-28">
         <Lines />
 
-        <div className="relative w-full lg:w-auto">
+        <div className="relative w-full lg:w-[862px] lg:h-[524x] mb-24 ">
           <img
             src="/first_bg.png"
             alt="Background Graphic"
-            className="w-[300px] md:w-[600px] lg:w-[1440px] h-auto mt-[100px] lg:mt-[190px] mr-[0px] lg:mr-[258px]"
+            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[120px] lg:w-[1320px] lg:ml-[-90px] lg:h-[824px] "
           />
+          </div>
           {/* Floating Panels */}
           <div className="absolute hidden md:hidden  inset-0 lg:flex flex-col items-center justify-center space-y-8">
             {/* First Floating Panel */}
@@ -86,7 +87,28 @@ const First = () => {
               </div>
             <div className="w-[211.76px] h-[36.38px] border-[0.54px] border-[#303038] rounded-lg bg-[#1D1F20] m-2 flex justify-between items-center ">
                   <div className="w-[90px] h-[23px] justify-between items-center flex flex-col mb-2 mt-2">
-                 <h1 className="text-[6.6px] ml-2 text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">Social Media Report</span> Google Analytics → Slack</h1>
+                 <h1 className="text-[6.6px] ml-2 text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">New Lead Alert</span> HubSpot → Email</h1>
+                  </div>
+                    {/* Switch (replacing the icon) */}
+      <div className="mr-2">
+        <label className="relative inline-flex items-center cursor-pointer">
+          <input
+            type="checkbox"
+            className="sr-only peer"
+            checked={isEnabled}
+            onChange={toggleSwitch}
+          />
+          <div
+            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
+            peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
+            before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
+          ></div>
+        </label>
+      </div>
+              </div>
+            <div className="w-[211.76px] h-[36.38px] border-[0.54px] border-[#303038] rounded-lg bg-[#1D1F20] m-2 flex justify-between items-center ">
+                  <div className="w-[120px] h-[22px] justify-between m-2 flex flex-col ">
+                 <h1 className="text-[6.6px]  flex flex-col text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">Feedback Collection</span>Google Forms → Notion</h1>
                   </div>
                     {/* Switch (replacing the icon) */}
       <div className="mr-2">
@@ -107,28 +129,7 @@ const First = () => {
               </div>
             <div className="w-[211.76px] h-[36.38px] border-[0.54px] border-[#303038] rounded-lg bg-[#1D1F20] m-2 flex justify-between items-center ">
                   <div className="w-[90px] h-[23px] justify-between items-center flex flex-col mb-2 mt-2">
-                 <h1 className="text-[6.6px] ml-2 text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">Social Media Report</span> Google Analytics → Slack</h1>
-                  </div>
-                    {/* Switch (replacing the icon) */}
-      <div className="mr-2">
-        <label className="relative inline-flex items-center cursor-pointer">
-          <input
-            type="checkbox"
-            className="sr-only peer"
-            checked={isEnabled}
-            onChange={toggleSwitch}
-          />
-          <div
-            className={`w-8 h-3  bg-gray-200 rounded-full peer peer-focus:ring-2 peer-focus:ring-purple-700 peer-checked:bg-[#6059AF] 
-            peer-checked:before:translate-x-full peer-checked:before:border-white before:content-[''] before:absolute before:top-[-2.5px] before:left-[px] before:bg-white 
-            before:border-gray-300 before:border before:rounded-full before:h-4 before:w-4 before:transition-all`}
-          ></div>
-        </label>
-      </div>
-              </div>
-            <div className="w-[211.76px] h-[36.38px] border-[0.54px] border-[#303038] rounded-lg bg-[#1D1F20] m-2 flex justify-between items-center ">
-                  <div className="w-[90px] h-[23px] justify-between items-center flex flex-col mb-2 mt-2">
-                 <h1 className="text-[6.6px] ml-2 text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">Social Media Report</span> Google Analytics → Slack</h1>
+                 <h1 className="text-[6.6px] ml-2 text-[#9299A0]"> <span className="text-white font-semibold text-[8.6px]">Weather Update</span> Weather API → Slack</h1>
                   </div>
                     {/* Switch (replacing the icon) */}
       <div className="mr-2">
@@ -251,7 +252,7 @@ const First = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
