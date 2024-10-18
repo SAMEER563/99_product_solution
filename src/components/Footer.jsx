@@ -12,13 +12,12 @@ const Footer = () => {
          <Link to="/">           
          <img src="/logo.png" alt="" className='w-[175px] h-[52px] mt-16 ml-4 md:' />
             </Link> 
-            <p className='text-[#9299A0] my-4 text-center'>© 2024 99products Solutions. All rights reserved.</p>
+            <p className='text-[#9299A0] my-4 text-center'>© 2024 99product Solutions. All rights reserved.</p>
         </div>
 
         {/* Right Section */}
         <div className='flex flex-col'>
             <ul className='md:flex hidden gap-6 text-base text-white  mt-16'>
-                <Link to="/">Services</Link>
                 <Link to="/">Products</Link>
                 <Link to="/">About Us</Link>
                 <Link to="/">Blog</Link>
