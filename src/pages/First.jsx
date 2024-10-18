@@ -17,7 +17,7 @@ const First = () => {
 
 
   return (
-    <div className="flex flex-col lg:flex-row  justify-between min-h-screen bg-black px-4 md:px-24 md:py-12 md:">
+    <div className="flex flex-col lg:flex-row  justify-between h-screen bg-black px-4  md:py-12 md:">
       {/* Left Section */}
       <div className=" lg:w-1/2 lg:mt-0">
         <h3 className="text-white text-3xl mb-5  mt-32 md:text-4xl px-2">
@@ -39,14 +39,14 @@ const First = () => {
       </div>
 
       {/* Right Section */}
-      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative mr-28">
+      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative md:mr-32 mr-28">
         <Lines />
 
         <div className="relative w-full lg:w-[862px] lg:h-[524x] mb-24 ">
           <img
             src="/first_bg.png"
             alt="Background Graphic"
-            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[120px] lg:w-[1320px] lg:ml-[-90px] lg:h-[824px] "
+            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[490px] lg:w-[1320px] lg:ml-[-100px] lg:h-[824px] "
           />
           </div>
           {/* Floating Panels */}

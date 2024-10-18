@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const ProductPage = () => {
   return (
@@ -113,8 +114,12 @@ const ProductPage = () => {
             
             <p className="text-[#9299A0] text-center mt-12 text-base md:text-lg lg:mx-28">With PolitikConnect, political leaders can centralize their operations, foster deeper connections with their <br className="hidden lg:block"/> constituencies, and manage teams efficiently. By digitizing communication, grievance management, and <br className="hidden lg:block"/>performance tracking, this platform enhances leadership accountability, improves voter engagement, and <br />boosts operational efficiency, paving the way for better governance.</p>
             <span className="block text-lg text-white mt-8 md:mt-12">Explore PolitikConnect today to see how it can transform your leadership <br className="hidden lg:block"/>operations and connect you closer to the people you serve.</span>
+        <Link to="/">
+          <button className="border border-[#7F75F0] py-2 px-6 rounded-full text-[#7F75F0] mt-6">
+            Get It
+          </button>
+        </Link>
         </div>
-
       <Footer />
     </div>
   );
