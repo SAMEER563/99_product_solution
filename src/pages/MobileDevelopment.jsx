@@ -1,22 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const MobileDevelopment = () => {
+const MobileDevelopment = ({ closeModal }) => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black">
-      <div className="relative w-[1084px] bg-[#E4E4E7] rounded-3xl  shadow-lg p-10">
+    <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+      <div className="relative w-[1084px] bg-[#E4E4E7] rounded-3xl shadow-lg mt-4">
         {/* Close button */}
-        <Link to="/" className="absolute top-4 right-4 text-[#000000]">
-          <button className=" m-4 md:-8 font-black border border-black w-[64px] h-[62px] rounded-xl">
-            <span className="text-xl text-[#1C1B1F]">✕</span>
-          </button>
-        </Link>
+        <button
+          onClick={closeModal}
+          className="absolute top-4 right-4 font-black border border-black w-[64px] h-[62px] rounded-xl"
+        >
+          <span className="text-xl text-[#1C1B1F]">✕</span>
+        </button>
 
-        {/* Title */}
-        <h1 className="text-5xl font-semibold text-[#000000] m-6 ">
-          Mobile App Development{" "}
+       <div className="m-6">
+         {/* Title */}
+         <h1 className="text-3xl md:text-5xl font-semibold text-[#000000] mb-2">
+          Mobile App Development
         </h1>
-        <h1 className=" ml-6 text-5xl"> (iOS, Android, Hybrid)</h1>
+        <h2 className="text-2xl md:text-4xl mt-2 text-[#000000] ">(iOS, Android, Hybrid)</h2>
 
         {/* Description */}
         <p className="text-[#000000] mb-6 text-lg mt-4 ml-2">
@@ -25,7 +26,7 @@ const MobileDevelopment = () => {
           userfriendly apps for:
         </p>
 
-        {/* iOS Section */}
+        {/* Mobile Platforms Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {/* iOS */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
@@ -41,9 +42,7 @@ const MobileDevelopment = () => {
           {/* Android */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
             <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
-            <h3 className="text-2xl font-semibold text-[#000000] ml-4">
-              Android
-            </h3>
+            <h3 className="text-2xl font-semibold text-[#000000] ml-4">Android</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Reach a wide audience with <br /> dynamic, scalable Android apps{" "}
               <br />
@@ -55,9 +54,7 @@ const MobileDevelopment = () => {
           {/* Hybrid */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
             <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
-            <h3 className="text-2xl font-semibold text-[#000000] ml-4">
-              Hybrid
-            </h3>
+            <h3 className="text-2xl font-semibold text-[#000000] ml-4">Hybrid</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Reduce development time and <br />
               costs by building hybrid apps that <br /> work seamlessly across
@@ -72,6 +69,7 @@ const MobileDevelopment = () => {
           Our development process focuses on usability, security, and
           scalability to meet your business needs and <br /> delight your users.
         </p>
+       </div>
       </div>
     </div>
   );

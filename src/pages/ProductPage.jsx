@@ -11,7 +11,7 @@ const ProductPage = () => {
       {/* First Page */}
       <div className="flex flex-col lg:flex-row justify-around items-center lg:items-start px-6 md:px-10 py-10 lg:py-20 bg-black">
         {/* Left Section: Text */}
-        <div className="lg:mt-32 lg:ml-20 mb-10 lg:mb-0 text-center lg:text-left">
+        <div className="lg:mt-32 lg:ml-0 mb-10 lg:mb-0 text-center lg:text-left">
           <span className="bg-gradient-to-br from-[#5E6CD4] to-[#A47DE8] bg-clip-text text-transparent font-semibold text-3xl md:text-5xl">
             PolitikConnect
           </span>
@@ -34,10 +34,10 @@ const ProductPage = () => {
 
       {/* Second Page */}
       <div className="bg-black">
-        <h1 className="text-white text-4xl ml-4 md:text-center mb-12 py-4 px-16">Key Features</h1>
+        <h1 className="text-white text-4xl ml-4 mb-12 py-4 md:ml-32 px-16">Key Features</h1>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 ml-4 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap- md:ml-16 lg:ml-52 mt-10 mr-52 md:mr-16 -my-6 ">
+        <div className="grid grid-cols-1 ml-4 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap- md:ml-16 lg:ml-44 mt-10 mr-52 md:mr-16 -my-6 ">
           {/* 1st card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000]  border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
             <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
@@ -109,13 +109,13 @@ const ProductPage = () => {
 
         {/* Third Page */}
 
-        <div className="bg-black text-center py-16 px-4 md:px-12 lg:px-32 -my-6">
+        <div className="bg-black text-center py-16 px-4 md:px-12 lg:p-52 ]">
             <h1 className="text-white text-4xl md:text-5xl lg:text-7xl text-center ">Why Choose PolitikConnect?</h1>
             
             <p className="text-[#9299A0] text-center mt-12 text-base md:text-lg lg:mx-28">With PolitikConnect, political leaders can centralize their operations, foster deeper connections with their <br className="hidden lg:block"/> constituencies, and manage teams efficiently. By digitizing communication, grievance management, and <br className="hidden lg:block"/>performance tracking, this platform enhances leadership accountability, improves voter engagement, and <br />boosts operational efficiency, paving the way for better governance.</p>
             <span className="block text-lg text-white mt-8 md:mt-12">Explore PolitikConnect today to see how it can transform your leadership <br className="hidden lg:block"/>operations and connect you closer to the people you serve.</span>
         <Link to="/">
-          <button className="border border-[#7F75F0] py-2 px-6 rounded-full text-[#7F75F0] mt-6">
+          <button className="border border-[#7F75F0] w-[124px] h-[36px] rounded-full text-[#7F75F0] mt-6">
             Get It
           </button>
         </Link>

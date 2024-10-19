@@ -6,16 +6,23 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-black ">
-      <div className="flex lg:justify-around    justify-between items-center w-full md:px-6 px-3 py-4">
+      <div className="flex  justify-between items-center w-full md:px-2 px-3 py-4">
         <div>
         <Link to="/">
-        <img src="/logo.png" alt="" className='w-[175px] h-[52px] mt-4 ml-10' />
+        <img src="/logo.png" alt="" className='w-[175px] h-[52px] mt-4 ml-10 md:ml-36' />
         </Link>
         </div>
-        <div className="md:flex hidden md:gap-12 gap-20 text-base text-white ">
+        <div className="md:flex hidden md:gap-18 gap-20 text-base text-white md:mr-36">
         <a href="/products" target="_blank" rel="noopener noreferrer">Products</a>
           <Link to="/case-studies ">Case Studies</Link>
           <Link to="/blogs">Blog</Link>
+          <div className="hidden md:block  h-[44px]">
+          <Link to="/contact">
+            <button className="border  border-[#7F75F0] w-[124px] h-[32px] rounded-full text-[#7F75F0]">
+              Contact Us
+            </button>
+          </Link>
+        </div>
         </div>
         <div className="md:hidden flex">
           <button onClick={() => setIsOpen(!isOpen)}>
@@ -35,13 +42,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:block">
-          <Link to="/contact">
-            <button className="border border-[#7F75F0] py-1 px-2 rounded-full text-[#7F75F0]">
-              Contact Us
-            </button>
-          </Link>
-        </div>
+      
       </div>
       {/* Mobile Menu */}
       {isOpen && (

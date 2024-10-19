@@ -19,30 +19,30 @@ const First = () => {
   return (
     <div className="flex flex-col lg:flex-row  justify-between h-screen bg-black px-4  md:py-12 md:">
       {/* Left Section */}
-      <div className=" lg:w-1/2 lg:mt-0">
+      <div className=" lg:w-1/2 lg:ml-32">
         <h3 className="text-white text-3xl mb-5  mt-32 md:text-4xl px-2">
           Transforming Ideas into
         </h3>
         <h1 className=" text-6xl md:text-7xl bg-gradient-to-br from-[#5E6CD4] to-[#A47DE8] ml-2 bg-clip-text text-transparent py-3 font-semibold">
           Digital Solutions
         </h1>
-        <p className="text-[#9299A0] text-base md:text-lg mt-4">
+        <p className="text-[#9299A0] text-base md:text-lg mt-4 md:ml-4">
           Your trusted partner for Website Development, Mobile Apps,
           <br className="hidden lg:block" />
           and Comprehensive IT Services
         </p>
         <Link to="/start">
-          <button className="border border-[#7F75F0] py-2 px-6 rounded-full text-[#7F75F0] mt-6">
+          <button className="border border-[#7F75F0] w-[124px] h-[36px] rounded-full text-[#7F75F0] mt-6 md:ml-4">
             Get Started
           </button>
         </Link>
       </div>
 
       {/* Right Section */}
-      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative md:mr-32 mr-28">
+      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative md:mr-2 mr-28">
         <Lines />
 
-        <div className="relative w-full lg:w-[862px] lg:h-[524x] mb-24 ">
+        <div className="relative  w-full lg:w-[862px] lg:h-[524x] mb-24 ">
           <img
             src="/first_bg.png"
             alt="Background Graphic"
@@ -50,9 +50,9 @@ const First = () => {
           />
           </div>
           {/* Floating Panels */}
-          <div className="absolute hidden md:hidden  inset-0 lg:flex flex-col items-center justify-center space-y-8">
+          <div className="absolute hidden md:hidden  inset-0 lg:flex flex-col items-center justify-center space-y-8 ">
             {/* First Floating Panel */}
-            <div className="absolute left-[120px] md:left-[227px] -top-[250px] lg:top-[120px] w-[180px] md:w-[240px] h-[322.53px] md:h-[322.53px] bg-[] rounded-lg shadow-lg  p-2 border-gray-600 border backdrop-blur-2xl">
+            <div className="absolute left-[120px] md:left-[180px] -top-[250px] lg:top-[100px] w-[180px] md:w-[240px] h-[322.53px] md:h-[322.53px] bg-[] rounded-lg shadow-lg  p-2 border-gray-600 border backdrop-blur-2xl">
               <div className="flex gap-2 mb-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
@@ -176,7 +176,7 @@ const First = () => {
             
 
             {/* Second Floating Panel */}
-            <div className="absolute left-[250px] md:left-[380px] -top-[140px] md:top-[240px] w-[180px] md:w-[254px] h-[240px] md:h-[285px] bg-[] bg-blur-[10.86]  rounded-lg shadow-lg  p-4 md:p-4 border-gray-600 border backdrop-blur-2xl">
+            <div className="absolute left-[250px] md:left-[320px] -top-[140px] md:top-[220px] w-[180px] md:w-[254px] h-[240px] md:h-[285px] bg-[] bg-blur-[10.86]  rounded-lg shadow-lg  p-4 md:p-4 border-gray-600 border backdrop-blur-2xl">
               {/* Summary Section */}
               <div className="flex gap-2 mb-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
@@ -227,7 +227,7 @@ const First = () => {
             </div>
 
             {/* Third Floating Panel */}
-            <div className="absolute left-[40px] md:left-[80px] -top-[60px] md:top-[318px] w-[160px] md:w-[218.34px] h-[120px] md:h-[155.96px] bg-[] blur-[20] border-gray-600 border rounded-lg shadow-lg  backdrop-blur-2xl items-center justify-center">
+            <div className="absolute left-[40px] md:left-[80px] -top-[60px] md:top-[298px] w-[160px] md:w-[218.34px] h-[120px] md:h-[155.96px] bg-[] blur-[20] border-gray-600 border rounded-lg shadow-lg  backdrop-blur-2xl items-center justify-center">
             <div className="flex gap-2 m-2">
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
               <div className="bg-white w-[4.34px] h-[4.34px] rounded-full"></div>
