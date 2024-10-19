@@ -46,7 +46,7 @@ const First = () => {
           <img
             src="/first_bg.png"
             alt="Background Graphic"
-            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[490px] lg:w-[1320px] lg:ml-[-100px] lg:h-[824px] "
+            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[460px] lg:w-[1320px] lg:ml-[-100px] lg:h-[824px] "
           />
           </div>
           {/* Floating Panels */}
