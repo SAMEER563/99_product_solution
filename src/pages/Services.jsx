@@ -42,7 +42,7 @@ const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) 
     </div>
 
     <div className="md:w-[444px] md:h-[274.3px] border border-[#3D3A3A] rounded-xl">
-      <img src="/code1.png" alt={title} className="w-full h-full object-cover rounded-xl" />
+      <img src="/code1.png" alt={title} className="w-full h-full hidden  md:flex object-cover rounded-xl" />
     </div>
   </div>
 );
@@ -58,7 +58,7 @@ const VerticalIndicator = ({ activeService }) => {
   };
 
   return (
-    <div className="absolute left-4 top-[240px] transform -translate-y-0.5 flex flex-col space-y-80 md:left-24 md:space-y-36 md:mt-24">
+    <div className="absolute left-10 top-20 transform -translate-y-0.5 flex flex-col space-y-20  md:left-24 mt-36  md:space-y-36 md:mt-52 lg:mt-24">
       {[...Array(5)].map((_, serviceIndex) => (
         <div key={serviceIndex} className="flex flex-col space-y-2">
           {[...Array(3)].map((_, partIndex) => (
@@ -120,7 +120,7 @@ const ServicesList = () => {
         </p>
       </div>
 
-      <div className="space-y-20 md:space-y-16 md:ml-24">
+      <div className="space-y-10 md:space-y-16 md:ml-24 ml-16">
         {services.map((service, index) => (
           <Service
             key={index}

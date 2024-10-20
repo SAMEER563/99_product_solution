@@ -23,12 +23,25 @@ const Latest = () => {
           <br className="hidden lg:block" />
           party workers, and staff.
         </p>
-        <Link to="/products" className="inline-block text-[#7F75F0] mt-4 ">
+        {/* <Link to="/products" className="inline-block text-[#7F75F0] mt-4 ">
           <div className="flex gap-2">
             Explore
             <FaArrowRightLong className="mt-1.5" />
           </div>
-        </Link>
+        </Link> */}
+ 
+       <a href="/products" className="inline-block text-[#7F75F0] mt-4" onClick={(e) => {
+        e.preventDefault();
+        window.location.href = "/products";
+        window.scrollTo(0, 0);
+      
+       }}>
+        <div className="flex gap-2">
+       Explore
+          <FaArrowRightLong className="mt-1.5" />
+        </div>
+       </a>
+
       </div>
 
       {/* Right Section: Block */}

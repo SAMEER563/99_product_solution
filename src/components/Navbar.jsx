@@ -9,14 +9,14 @@ const Navbar = () => {
       <div className="flex  justify-between items-center w-full md:px-2 px-3 py-4">
         <div>
         <Link to="/">
-        <img src="/logo.png" alt="" className='w-[175px] h-[52px] mt-4 ml-10 md:ml-36' />
+        <img src="/logo.png" alt="" className='w-[175px] h-[52px] mt-4 ml-10 md:ml-2 lg:ml-36 ' />
         </Link>
         </div>
-        <div className="md:flex hidden md:gap-18 gap-20 text-base text-white md:mr-36">
+        <div className="md:flex hidden md:gap-18 gap-20 text-base text-white lg:mr-36 md:mr-4">
         <a href="/products" target="_blank" rel="noopener noreferrer">Products</a>
           <Link to="/case-studies ">Case Studies</Link>
           <Link to="/blogs">Blog</Link>
-          <div className="hidden md:block  h-[44px]">
+          <div className="hidden md:block h-[44px]">
           <Link to="/contact">
             <button className="border  border-[#7F75F0] w-[124px] h-[32px] rounded-full text-[#7F75F0]">
               Contact Us

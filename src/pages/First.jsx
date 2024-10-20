@@ -39,14 +39,14 @@ const First = () => {
       </div>
 
       {/* Right Section */}
-      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-10 lg:mt-0 relative md:mr-2 mr-28">
+      <div className="lg:w-1/2 w-full flex justify-center items-center  mt-4 lg:mt-0   relative md:mr-2 mr-28">
         <Lines />
 
-        <div className="relative  w-full lg:w-[862px] lg:h-[524x] mb-24 ">
+        <div className="relative  w-full lg:w-[862px] lg:h-[524x] mb-24  md:mt-32 lg:mt-0">
           <img
             src="/first_bg.png"
             alt="Background Graphic"
-            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[460px] lg:w-[1320px] lg:ml-[-100px] lg:h-[824px] "
+            className="w-[300px] md:w-[600px] h-auto mt-[100px] mr-100px lg:mt-[460px] lg:w-[1320px] md:ml-[100px] lg:ml-[-100px] lg:h-[824px] "
           />
           </div>
           {/* Floating Panels */}
