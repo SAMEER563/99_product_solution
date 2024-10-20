@@ -30,12 +30,8 @@ const Latest = () => {
           </div>
         </Link> */}
  
-       <a href="/products" className="inline-block text-[#7F75F0] mt-4" onClick={(e) => {
-        e.preventDefault();
-        window.location.href = "/products";
-        window.scrollTo(0, 0);
-      
-       }}>
+       <a href="/products" className="inline-block text-[#7F75F0] mt-4" 
+    >
         <div className="flex gap-2">
        Explore
           <FaArrowRightLong className="mt-1.5" />

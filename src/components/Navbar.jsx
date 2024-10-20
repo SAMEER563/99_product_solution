@@ -13,7 +13,7 @@ const Navbar = () => {
         </Link>
         </div>
         <div className="md:flex hidden md:gap-18 gap-20 text-base text-white lg:mr-36 md:mr-4">
-        <a href="/products" target="_blank" rel="noopener noreferrer">Products</a>
+        <Link to='/products' >Products</Link>
           <Link to="/case-studies ">Case Studies</Link>
           <Link to="/blogs">Blog</Link>
           <div className="hidden md:block h-[44px]">

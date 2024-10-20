@@ -51,9 +51,16 @@ const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) 
 const VerticalIndicator = ({ activeService }) => {
   const isActivePart = (serviceIndex, partIndex) => {
     if (activeService === null) return false;
+    
+    // First service activates the first part (index 0)
     if (serviceIndex === 0 && partIndex === 0) return activeService === serviceIndex;
-    if (serviceIndex >= 1 && serviceIndex <= 3 && partIndex === 1) return activeService === serviceIndex;
+
+    // Last service activates the third part (index 2)
     if (serviceIndex === 4 && partIndex === 2) return activeService === serviceIndex;
+
+    // Services 2 to 4 activate the second part (index 1)
+    if (serviceIndex >= 1 && serviceIndex <= 3 && partIndex === 1) return activeService === serviceIndex;
+    
     return false;
   };
 

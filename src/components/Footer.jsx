@@ -18,7 +18,7 @@ const Footer = () => {
         {/* Right Section */}
         <div className='flex flex-col'>
             <ul className='md:flex hidden md:gap-10 text-base text-white  mt-16'>
-                <Link to="/">Products</Link>
+                <a href="/products">Products</a>
                 <Link to="/">About Us</Link>
                 <Link to="/">Blog</Link>
                 <Link to="/">Contact Us</Link>
