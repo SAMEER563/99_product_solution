@@ -37,7 +37,7 @@ const ProductPage = () => {
         <h1 className="text-white text-4xl ml-4 mb-12 py-4 md:ml-32 px-16">Key Features</h1>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 ml-4 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap- md:ml-16 lg:ml-44 mt-10 mr-52 md:mr-16 -my-6 ">
+        <div className="grid grid-cols-1 ml-3 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap- md:ml-16 lg:ml-44 mt-10 mr-16 md:mr-16 -my-6 ">
           {/* 1st card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000]  border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
             <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
