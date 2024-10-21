@@ -13,12 +13,12 @@ const Modal = ({ children, onClose }) => (
     role="dialog"
     aria-modal="true"
   >
-    <div className="bg-white rounded-lg p-8 w-[90%] max-w-lg relative">
+    <div className="bg-white rounded-lg p-8 w-[90%] max-w-lg relative ">
       {children}
     
     </div>
   </div>
-);
+); 
 
 // Service Component
 const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) => (
@@ -35,7 +35,7 @@ const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) 
       <p className="text-white text-xl mb-6">{description}</p>
       <button
         onClick={onLearnMore}
-        className="text-[#7F75F0] font-semibold hover:underline flex items-center"
+        className="text-[#7F75F0] font-semibold hover:underline hidden md:flex items-center"
       >
         Learn more <span className="ml-2">→</span>
       </button>
