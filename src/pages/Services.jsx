@@ -65,7 +65,7 @@ const VerticalIndicator = ({ activeService }) => {
   };
 
   return (
-    <div className="absolute left-10 top-20 transform -translate-y-0.5 flex flex-col space-y-20  md:left-24 mt-36  md:space-y-36 md:mt-52 lg:mt-52">
+    <div className="absolute left-10 top-44 md:top-20 transform -translate-y-0.5 flex flex-col space-y-16  md:left-24 mt-0  md:space-y-36 md:mt-52 lg:mt-52">
       {[...Array(5)].map((_, serviceIndex) => (
         <div key={serviceIndex} className="flex flex-col space-y-2">
           {[...Array(3)].map((_, partIndex) => (
