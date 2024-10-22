@@ -107,6 +107,8 @@ const ProductPage = () => {
         {/* End of Cards */}
       </div>
 
+      
+
         {/* Third Page */}
 
         <div className="bg-black text-center py-16 px-4 md:px-12 lg:p-52 ]">
