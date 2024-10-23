@@ -18,6 +18,7 @@ const Devops = ({ closeModal }) => {
           DevOps & Automation
         </h1>
 
+
         {/* Description */}
         <p className="text-[#000000] mb-6 text-lg mt-4 ml-2">
           We provide DevOps solutions to accelerate your development cycles,
