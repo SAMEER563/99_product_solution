@@ -15,7 +15,7 @@ const ProductPage = () => {
           <span className="bg-gradient-to-br from-[#5E6CD4] to-[#A47DE8] bg-clip-text text-transparent font-semibold text-3xl md:text-5xl">
             PolitikConnect
           </span>
-          <p className="text-white text-base mt-4 ">
+          <p className="text-[#9299A0] text-base mt-4 ">
             PolitikConnect is a cutting-edge platform designed specifically to <br className="hidden lg:block"/>
             modernize and streamline the operations of political leaders such as <br className="hidden lg:block"/> 
             Members of Parliament (MPs) and Members of Legislative Assembly <br className="hidden lg:block"/>
@@ -27,9 +27,13 @@ const ProductPage = () => {
         </div>
 
         {/* Right Section: Block */}
-        <div className="w-full lg:w-[380px] h-[260px] md:h-[460px] bg-[#1E1E1E] rounded-3xl shadow-lg md:m-8 flex justify-center items-center my-6 md:my-16">
-          {/* Content inside the block, if any */}
-        </div>
+        <div className="w-full lg:w-[600px] lg:h-[360px] h-[260px] md:h-[460px] backdrop-blur-3xl bg-[] shadow-lg md:m- flex justify-center items-center my-6 md:my-16 relative overflow-hidden  ">
+
+  
+  {/* Image */}
+  <img src="/mobile.png" alt="" className="relative z-10  w-full h-full object-cover lg:mr-32" />
+</div>
+
       </div>
 
       {/* Second Page */}
@@ -40,7 +44,9 @@ const ProductPage = () => {
         <div className="grid grid-cols-1 ml-3 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap- md:ml-16 lg:ml-44 mt-10 mr-16 md:mr-16 -my-6 ">
           {/* 1st card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000]  border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/task.png" alt="" className="h-[94px] w-[92px]"/>
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               Task Delegation & <br /> Management
             </h3>
@@ -51,7 +57,9 @@ const ProductPage = () => {
 
           {/* 2nd card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000]  border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/voter.png" alt="" className="h-[94px] w-[92px]" />
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               Voter Interaction & <br /> Engagement
             </h3>
@@ -62,7 +70,9 @@ const ProductPage = () => {
 
           {/* 3rd card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000]  border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/grivances.png" alt="" />
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               Grievance Redressal <br /> System
             </h3>
@@ -73,7 +83,9 @@ const ProductPage = () => {
 
           {/* 4th card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000] border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/data.png" alt="" className="h-[94px] w-[92px]" />
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               Data-Driven <br /> Performance Reporting
             </h3>
@@ -84,7 +96,9 @@ const ProductPage = () => {
 
           {/* 5th card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000] border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/hire.png" alt="" className="h-[94px] w-[92px]"/>
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               Hierarchical Access <br /> Control
             </h3>
@@ -95,7 +109,9 @@ const ProductPage = () => {
 
           {/* 6th card */}
           <div className="p-4 bg-gradient-to-b from-[#121212] to-[#000000] border border-[#2A2A2A] w-[360px] h-[450px] rounded-xl shadow">
-            <div className="bg-[#262626] h-[94px] w-[92px] m-4"></div>
+            <div className="bg-[#262626] h-[94px] w-[92px] m-4">
+              <img src="/user.png" alt="" />
+            </div>
             <h3 className="text-2xl font-semibold text-[#ffffff] ml-4">
               User-Friendly Interface
             </h3>

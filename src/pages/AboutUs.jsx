@@ -33,11 +33,11 @@ const AboutUs = () => {
       </div>
 
       {/* Right Section */}
-      <div className="hidden relative md:flex justify-center items-center w-full md:w-1/2 ">
+      <div className="hidden relative md:flex justify-center items-center w-full lg:w-1/2 md:w-2/3  ">
         {/* Background circular patterns */}
-        <div className="relative flex md:hidden lg:flex justify-center items-end w-full h-full ">
+        {/* <div className="relative flex md:hidden lg:flex justify-center items-end w-full h-full "> */}
           {/* Circular pattern */}
-          <div className="absolute left-[550px] bottom-[150px] lg:left-[520px] md:left-[420px]  lg:bottom-[120px] transform rotate-180 ">
+          {/* <div className="absolute left-[550px] bottom-[150px] lg:left-[520px] md:left-[420px]  lg:bottom-[120px] transform rotate-180 ">
             <div className="w-[300px] h-[300px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-11 left-11"></div>
             <div className="w-[320px] h-[320px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-10 left-10"></div>
             <div className="w-[340px] h-[340px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-9 left-9"></div>
@@ -50,13 +50,16 @@ const AboutUs = () => {
             <div className="w-[480px] h-[480px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-2 left-2"></div>
             <div className="w-[500px] h-[500px] rounded-full border-[1px] border-purple-800 opacity-50 absolute top-1 left-1"></div>
           </div>
-        </div>
+        </div> */}
 
         {/* Floating square panels */}
-        <div className="flex space-x-4 md:space-x-8">
+        {/* <div className="flex space-x-4 md:space-x-8">
           <div className="absolute top-28 md:top-[260px] left-4 md:left-6 w-[200px] lg:top-[160px] lg:left-[60px] h-[200px] md:w-[230px] md:h-[230px] bg-white bg-opacity-30 backdrop-blur-lg rounded-xl"></div>
           <div className="w-[200px] h-[200px] md:w-[230px] md:h-[230px] absolute top-48 md:top-[420px] left-4 md:left-16 lg:top-[300px] lg:left-[180px] bg-white bg-opacity-30 backdrop-blur-lg rounded-xl"></div>
-        </div>
+        </div> */}
+
+
+        <img src="/about.png" alt="" className="w-[590px] h-[566px] "/>
       </div>
     </div>
   );

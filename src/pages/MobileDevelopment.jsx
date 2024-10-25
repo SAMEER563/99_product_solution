@@ -30,7 +30,7 @@ const MobileDevelopment = ({ closeModal }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {/* iOS */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/ios.png" alt="" className="h-[92px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">iOS</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Leverage the power of Apple`&apos;`s <br />
@@ -41,7 +41,7 @@ const MobileDevelopment = ({ closeModal }) => {
 
           {/* Android */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/android.png" alt="" className="h-[92px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">Android</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Reach a wide audience with <br /> dynamic, scalable Android apps{" "}
@@ -53,7 +53,7 @@ const MobileDevelopment = ({ closeModal }) => {
 
           {/* Hybrid */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/hybrid.png" alt="" className="h-[92px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">Hybrid</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Reduce development time and <br />

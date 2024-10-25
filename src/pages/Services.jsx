@@ -21,7 +21,7 @@ const Modal = ({ children, onClose }) => (
 ); 
 
 // Service Component
-const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) => (
+const Service = ({ number, title, description, onLearnMore, onHover, onLeave, image }) => (
   <div
     className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 items-center"
     onMouseEnter={onHover}
@@ -41,8 +41,8 @@ const Service = ({ number, title, description, onLearnMore, onHover, onLeave }) 
       </button>
     </div>
 
-    <div className="md:w-[444px] md:h-[274.3px] border border-[#3D3A3A] rounded-xl">
-      <img src="/code1.png" alt={title} className="w-full h-full hidden  md:flex object-cover rounded-xl" />
+    <div className="lg:w-[444px] md:h-[274.3px] md:mr-6 border-[#3D3A3A] rounded-xl">
+      <img src={image} alt={title} className="w-full h-full hidden  md:flex object-cover rounded-xl" />
     </div>
   </div>
 );
@@ -100,11 +100,11 @@ const ServicesList = () => {
   }, [hoveredService]);
 
   const services = [
-    { number: "01/05", title: "Website Development", description: "Creative design, custom builds & e-commerce solutions", component: <WebsiteDevelopment /> },
-    { number: "02/05", title: "Mobile App Development", description: "Innovative apps for iOS, Android & hybrid platforms", component: <MobileDevelopment /> },
-    { number: "03/05", title: "IT Consulting & Support", description: "Expert guidance for your IT challenges", component: <ItConsulting /> },
-    { number: "04/05", title: "DevOps & Automation", description: "Streamline operations with DevOps & Automation", component: <Devops /> },
-    { number: "05/05", title: "IT Outsourcing", description: "Flexible IT support tailored to your needs", component: <ItOutsourcing /> },
+    { number: "01/05", title: "Website Development", description: "Creative design, custom builds & e-commerce solutions", image: "/code1.png", component: <WebsiteDevelopment /> },
+    { number: "02/05", title: "Mobile App Development", description: "Innovative apps for iOS, Android & hybrid platforms",image:"/mobiledevelop.png", component: <MobileDevelopment /> },
+    { number: "03/05", title: "IT Consulting & Support", description: "Expert guidance for your IT challenges",image:"/itconsult.png", component: <ItConsulting /> },
+    { number: "04/05", title: "DevOps & Automation", description: "Streamline operations with DevOps & Automation",image:"/devops.png", component: <Devops /> },
+    { number: "05/05", title: "IT Outsourcing", description: "Flexible IT support tailored to your needs", image:"/itout.png", component: <ItOutsourcing /> },
   ];
 
   const openModal = (component) => {
@@ -134,6 +134,7 @@ const ServicesList = () => {
             number={service.number}
             title={service.title}
             description={service.description}
+            image={service.image}
             onLeave={() => setHoveredService(null)}
             onLearnMore={() => openModal(service.component)}
           />

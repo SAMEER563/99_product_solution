@@ -30,7 +30,7 @@ const Devops = ({ closeModal }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* CI/CD Pipeline Setup */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/ci.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               CI/CD Pipeline Setup
             </h3>
@@ -44,7 +44,7 @@ const Devops = ({ closeModal }) => {
 
           {/* Infrastructure as Code (IaC) */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/infra.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               Infrastructure as <br /> Code (IaC)
             </h3>
@@ -57,7 +57,7 @@ const Devops = ({ closeModal }) => {
 
           {/* Automation */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/automation.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               Automation
             </h3>

@@ -30,7 +30,7 @@ const ItConsulting = ({ closeModal }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* IT Strategy Development */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/itstrategy.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               IT Strategy <br /> Development
             </h3>
@@ -42,7 +42,7 @@ const ItConsulting = ({ closeModal }) => {
 
           {/* System Implementation */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/system.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               System <br /> Implementation
             </h3>
@@ -55,7 +55,7 @@ const ItConsulting = ({ closeModal }) => {
 
           {/* Ongoing Support */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/ongoing.png" alt="" className="h-[94px] w-[92px] border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">
               Ongoing Support
             </h3>

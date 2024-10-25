@@ -30,7 +30,9 @@ const WebsiteDevelopment = ({ closeModal }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
           {/* Design */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+            <div className=" h-[94px] w-[92px] m-4">
+              <img src="/design.png" alt="" />
+            </div>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">Design</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               We craft visually stunning, user- <br />centric website designs that
@@ -40,7 +42,7 @@ const WebsiteDevelopment = ({ closeModal }) => {
 
           {/* Custom Builds */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+          <img src="/custom.png" alt="" className="h-[92px] w-[92px]  border border-none"/>
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">Custom Builds</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               Whether you need a unique website <br /> or advanced functionality, our
@@ -52,7 +54,9 @@ const WebsiteDevelopment = ({ closeModal }) => {
 
           {/* E-commerce */}
           <div className="p-4 bg-white w-[314px] h-[360px] rounded-xl shadow">
-            <div className="bg-[#D9D9D9] h-[94px] w-[92px] m-4"></div>
+      
+              <img src="/ecom.png" alt="" className="h-[92px] w-[92px] border border-none"/>
+            
             <h3 className="text-2xl font-semibold text-[#000000] ml-4">E-commerce</h3>
             <p className="text-[#000000] text-base  mt-2 ml-4">
               We design and build robust, secure, <br /> and scalable e-commerce <br />
