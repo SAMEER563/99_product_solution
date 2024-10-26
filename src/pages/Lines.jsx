@@ -3,7 +3,7 @@ import React from "react";
 const Lines = () => {
   return (
     <div className="">
-      <div className="absolute ml-10 md:ml-44 lg:ml-10 flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 md:top-[50px] top-[4px] overflow-none ">
+      <div className="absolute ml-10 md:ml-44 lg:ml-10 flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 md:top-[50px] top-[-8px] overflow-none ">
         {[...Array(15)].map((_, index) => (
           <div
             key={index}

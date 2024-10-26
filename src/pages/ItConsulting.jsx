@@ -27,7 +27,7 @@ const ItConsulting = ({ closeModal }) => {
         </p>
 
         {/* IT Strategy Development Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* IT Strategy Development */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
           <img src="/itstrategy.png" alt="" className="h-[94px] w-[92px] border border-none"/>

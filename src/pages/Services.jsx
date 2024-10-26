@@ -35,7 +35,7 @@ const Service = ({ number, title, description, onLearnMore, onHover, onLeave, im
       <p className="text-white text-xl mb-6">{description}</p>
       <button
         onClick={onLearnMore}
-        className="text-[#7F75F0] font-semibold hover:underline hidden md:flex items-center"
+        className="text-[#7F75F0] font-semibold hover:underline flex md:flex items-center"
       >
         Learn more <span className="ml-2">→</span>
       </button>

@@ -27,7 +27,7 @@ const WebsiteDevelopment = ({ closeModal }) => {
         </p>
 
         {/* Services Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+        <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
           {/* Design */}
           <div className="p-4 bg-[#FFFFFF] w-[314px] h-[360px] rounded-xl shadow">
             <div className=" h-[94px] w-[92px] m-4">

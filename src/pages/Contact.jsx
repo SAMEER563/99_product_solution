@@ -6,10 +6,10 @@ const ContactForm = () => {
       <div className="mt-10">
         {/* Header Section */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl md:text-5xl ">
+          <h1 className="text-2xl md:text-3xl  ">
             Need a quote? Have a question?
           </h1>
-          <p className="text-4xl md:text-5xl  font-bold mt-2">Get in touch!</p>
+          <p className="text-3xl md:text-4xl  font-semibold mt-2">Get in touch!</p>
           <p className="text-gray-400 mt-2 text-sm md:text-base text-center">
             Our team is happy to answer any queries you may <br className="block lg:hidden"/> have. Fill out the
             form and <br className="hidden lg:block"/> we’ll be in touch as soon as possible.
@@ -24,7 +24,7 @@ const ContactForm = () => {
               <div className="mt-16">
                 <div className="flex items-center mb-1">
                   <span className="inline-block h-3 w-3 bg-[#7F75F0] rounded-full mr-2"></span>
-                  <p>Address:</p>
+                  <p className="">Address:</p>
                 </div>
                 <p className="text-sm">Office address</p>
               </div>

@@ -7,7 +7,7 @@ const Latest = () => {
     <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-6 md:px-10 py-10 lg:py-20 bg-black">
       {/* Left Section: Text */}
       <div className="lg:mt-32 lg:ml-20 mb-10 lg:mb-0 text-center lg:text-left">
-        <h1 className="text-white text-3xl md:text-4xl mb-4">
+        <h1 className="text-white text-3xl md:text-5xl  mb-4">
           Our Latest Innovation
         </h1>
         <span className="bg-gradient-to-br from-[#5E6CD4] to-[#A47DE8]  bg-clip-text text-transparent font-semibold text-3xl md:text-5xl">
@@ -41,9 +41,9 @@ const Latest = () => {
       </div>
 
       {/* Right Section: Block */}
-      <div className="w-full lg:w-[380px] h-[260px] md:h-[460px] bg-[#1E1E1E] rounded-3xl shadow-lg md:m-8 flex justify-center items-center">
+      <div className="relative w-full lg:w-[400px] h-[260px] md:h-[444px] bg-[#1E1E1E]  shadow-lg md:m-8 flex lg:right-[105px] ">
         {/* Content inside the block, if any */}
-        <img src="/mobile1.jpeg" alt="" className="lg:w-[462px] lg:h-[460px]  rounded-3xl "/>
+        <img src="/mobile1.jpeg" alt="" className="  rounded-3xl "/>
       </div>
     </div>
   );

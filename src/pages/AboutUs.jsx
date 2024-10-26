@@ -5,10 +5,10 @@ const AboutUs = () => {
     <div className="flex flex-col md:flex-row bg-[#E4E4E7] h-screen">
       {/* Left Section */}
       <div className="w-full md:w-1/2 p-6 md:p-10 overflow-y-auto">
-        <h1 className="text-xl text-[#4338CA] font-bold text-start mt-10 ml-4 md:ml-16">
+        <h1 className="text-xl text-[#4338CA] font-base text-start mt-10 ml-4 md:ml-16">
           About Us
         </h1>
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold text-black text-start ml-4 md:ml-16 mt-4">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-black text-start ml-4 md:ml-16 mt-4">
           Who we are
         </h1>
         <p className="text-start text-black text-base md:text-[16px] font-lg mt-4 ml-4 md:ml-16">
