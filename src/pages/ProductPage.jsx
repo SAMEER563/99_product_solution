@@ -130,7 +130,7 @@ const ProductPage = () => {
         <div className="bg-black text-center py-16 px-4 md:px-12 lg:p-52 ]">
             <h1 className="text-white text-4xl md:text-5xl lg:text-5xl text-center ">Why Choose PolitikConnect?</h1>
             
-            <p className="text-[#9299A0] text-center mt-12 text-base md:text-lg lg:mx-28">With PolitikConnect, political leaders can centralize their operations, foster deeper connections with their <br className="hidden lg:block"/> constituencies, and manage teams efficiently. By digitizing communication, grievance management, and <br className="hidden lg:block"/>performance tracking, this platform enhances leadership accountability, improves voter engagement, and <br />boosts operational efficiency, paving the way for better governance.</p>
+            <p className="text-[#9299A0]  mt-12 text-base md:text-lg lg:mx-28">With PolitikConnect, political leaders can centralize their operations, foster deeper connections with their <br className="hidden lg:block"/> constituencies, and manage teams efficiently. By digitizing communication, grievance management, and <br className="hidden lg:block"/>performance tracking, this platform enhances leadership accountability, improves voter engagement, and <br />boosts operational efficiency, paving the way for better governance.</p>
             <span className="block text-lg text-white mt-6 md:mt-6">Explore PolitikConnect today to see how it can transform your leadership <br className="hidden lg:block"/>operations and connect you closer to the people you serve.</span>
         <Link to="/">
           <button className="border border-[#7F75F0] w-[124px] h-[36px] rounded-full text-[#7F75F0] mt-6">
