@@ -15,7 +15,7 @@ const MobileDevelopment = ({ closeModal }) => {
         <div className="m-4"> {/* Reduced margin */}
           {/* Title */}
           <h1 className="text-3xl md:text-5xl font-semibold text-[#000000] mb-1 ml-6"> {/* Reduced size and margin */}
-            Mobile App Development
+            Mobile App <br className="md:hidden"/>Development
           </h1>
           <h2 className="text-xl md:text-4xl mt-2 text-[#000000] ml-6">(iOS, Android, Hybrid)</h2>
 
