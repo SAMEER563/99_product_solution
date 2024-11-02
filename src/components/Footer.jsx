@@ -21,7 +21,7 @@ const Footer = () => {
                 <a href="/products">Products</a>
                 <Link to="/">About Us</Link>
                 <Link to="/">Blog</Link>
-                <Link to="/">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
             </ul>
             <div className='flex gap-4 text-white my-6 text-3xl mt-28 mr-4 md:m-6 md:ml-0'>
                 <Link to="/"><FaFacebook /></Link>
