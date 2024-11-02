@@ -41,7 +41,7 @@ const Latest = () => {
       </div>
 
       {/* Right Section: Block */}
-      <div className="relative w-full lg:w-[400px] h-[260px] md:h-[444px] bg-[#1E1E1E]  shadow-lg md:m-8 flex lg:right-[105px] ">
+      <div className="relative w-full lg:w-[400px] h-[260px] md:h-[444px] bg-[#1E1E1E] rounded-3xl  shadow-lg md:m-8 flex lg:right-[105px] ">
         {/* Content inside the block, if any */}
         <img src="/mobile1.jpeg" alt="" className="  rounded-3xl "/>
       </div>

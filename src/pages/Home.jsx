@@ -15,7 +15,7 @@ const Home = () => {
         <AboutUs />
         <ServicesList />
         <Latest />
-        <ContactForm />
+        <ContactForm /> 
         <Footer />
     </div>
   )
